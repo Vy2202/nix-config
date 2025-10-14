@@ -1,0 +1,4 @@
+/services/dae/dae.config	filter=git-crypt	diff=git-crypt
+/programs/git/token.sec     filter=git-crypt    diff=git-crypt
+/programs/anki/syncKey      filter=git-crypt    diff=git-crypt
+/services/miniflux/adminCredentialsFile filter=git-crypt    diff=git-crypt
