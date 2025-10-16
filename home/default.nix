@@ -13,6 +13,7 @@
     niri-flake.homeModules.niri
     stylix.homeModules.stylix
 
+    ../programs/neovim
     ../programs/fuzzel
     ../programs/firefox
     ../programs/ghostty
@@ -21,7 +22,7 @@
     ../programs/zsh
     ../programs/inputMethod
     ../programs/niri
-    ../programs/nixvim
+    # ../programs/nixvim
     ../programs/keepassxc
     ../programs/obsidian
     # ../programs/krita
