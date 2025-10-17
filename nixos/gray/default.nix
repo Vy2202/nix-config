@@ -15,6 +15,7 @@
     ../../services/nvidia
 
     ../../programs/gnupg
+    ../../programs/steam
   ];
 
   boot.loader.systemd-boot = {
