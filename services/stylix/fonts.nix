@@ -1,6 +1,10 @@
 { pkgs, ... }:
 {
   stylix.fonts = {
+    sizes = {
+      applications = 16;
+      desktop = 14;
+    };
     serif = {
       package = pkgs.noto-fonts;
       name = "Noto Serif";
