@@ -1,9 +1,19 @@
-{ config, ... }:
+{
+  config,
+  pkgs,
+  lib,
+  ...
+}:
 {
   programs.niri = {
     enable = true;
     settings = {
       prefer-no-csd = true;
+
+      xwayland-satellite = {
+        enable = true;
+        path = lib.getExe pkgs.xwayland-satellite;
+      };
 
       outputs."eDP-1" = {
         scale = 1;
