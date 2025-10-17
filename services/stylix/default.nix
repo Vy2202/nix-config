@@ -3,6 +3,7 @@
   imports = [
     ./fonts.nix
     ./cursor.nix
+    ./icons.nix
   ];
   stylix = {
     enable = true;
