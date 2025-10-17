@@ -11,8 +11,8 @@
     };
 
     sansSerif = {
-      package = pkgs.noto-fonts;
-      name = "Noto Sans";
+      package = pkgs.sarasa-gothic;
+      name = "Sarasa Gothic SC";
     };
 
     monospace = {

@@ -6,12 +6,14 @@
     pkgs.noto-fonts-cjk-serif
     pkgs.ubuntu-sans-mono
     pkgs.nerd-fonts.symbols-only
+    pkgs.sarasa-gothic
   ];
 
   fonts.fontconfig = {
     enable = true;
     defaultFonts = {
       sansSerif = [
+        "Sarasa Gothic SC"
         "Noto Sans CJK SC"
         "Noto Sans"
         "Symbols Nerd Font"
@@ -24,9 +26,10 @@
       ];
 
       monospace = [
+        "Symbols Nerd Font Mono"
+        "Sarasa Mono SC"
         "Ubuntu Sans Mono"
         "Noto Sans CJK SC"
-        "Symbols Nerd Font"
       ];
     };
   };
