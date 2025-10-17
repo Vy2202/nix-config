@@ -2,6 +2,7 @@
 {
   imports = [
     ./hardware.nix
+    ../../services/bluetooth
     ../../services/dae
     ../../services/nix
     ../../services/greetd
