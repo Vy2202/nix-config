@@ -43,7 +43,7 @@
     ../programs/blender
 
     ../services/fonts
-    ../services/cursorTheme
+    # ../services/cursorTheme
     ../services/stylix
     ../services/mako
     ../services/portal

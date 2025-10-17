@@ -2,6 +2,7 @@
 {
   imports = [
     ./fonts.nix
+    ./cursor.nix
   ];
   stylix = {
     enable = true;

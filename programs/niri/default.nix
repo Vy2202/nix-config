@@ -6,7 +6,7 @@
       prefer-no-csd = true;
 
       outputs."eDP-1" = {
-        scale = 1.44;
+        scale = 1;
       };
 
       layout = {
@@ -32,6 +32,11 @@
       environment = {
         QT_QPA_PLATFORM = "wayland";
         XDG_SESSION_TYPE = "wayland";
+      };
+
+      cursor = {
+        theme = "OpenZone_Ice";
+        size = 24;
       };
 
       binds = with config.lib.niri.actions; {
