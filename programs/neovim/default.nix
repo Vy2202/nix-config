@@ -5,6 +5,7 @@
 
     # LSP
     pkgs.nil
+    pkgs.markdown-oxide
 
     # 其他依赖
     pkgs.luajitPackages.luarocks-nix # lazy.nvim
