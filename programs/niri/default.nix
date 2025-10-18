@@ -16,7 +16,7 @@
       };
 
       outputs."eDP-1" = {
-        scale = 1;
+        scale = 1.5;
       };
 
       layout = {
@@ -29,8 +29,11 @@
         preset-column-widths = [
           { proportion = 1. / 2.; }
           { proportion = 1.; }
-
         ];
+
+        default-column-width = {
+          proportion = 1. / 2.;
+        };
       };
 
       spawn-at-startup = [
