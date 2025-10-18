@@ -22,6 +22,7 @@
   boot.initrd.kernelModules = [ ];
   boot.kernelModules = [ "kvm-amd" ];
   boot.extraModulePackages = [ ];
+  boot.kernelParams = [ "quiet" ];
 
   boot.tmp.cleanOnBoot = true;
 
