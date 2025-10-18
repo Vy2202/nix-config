@@ -1,7 +1,6 @@
 {
   config,
   lib,
-  pkgs,
   modulesPath,
   ...
 }:
@@ -56,6 +55,14 @@
     ];
   };
 
+  fileSystems."/swap" = {
+    device = "/dev/disk/by-uuid/0f043c7a-7f92-4853-b08b-3ec5b9cca3e0";
+    fsType = "btrfs";
+    options = [
+      "subvol=swap"
+    ];
+  };
+
   fileSystems."/boot" = {
     device = "/dev/disk/by-uuid/7129-D81E";
     fsType = "vfat";
@@ -65,7 +72,13 @@
     ];
   };
 
-  swapDevices = [ ];
+  swapDevices = [
+    { device = "/swap/swapfile"; }
+  ];
+
+  zramSwap = {
+    enable = true;
+  };
 
   networking.useDHCP = lib.mkDefault true;
 
