@@ -78,6 +78,8 @@
 
         "Ctrl+Shift+P".action = power-off-monitors;
 
+        "Mod+B".action = spawn "${lib.getExe pkgs.killall}" "-SIGUSR1" ".waybar-wrapped";
+
         "XF86AudioRaiseVolume".action = spawn-sh "wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.1+";
         "XF86AudioLowerVolume".action = spawn-sh "wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.1-";
         "XF86AudioMute".action = spawn-sh "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle";
