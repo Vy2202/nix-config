@@ -85,6 +85,8 @@
         "XF86AudioMute".action = spawn-sh "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle";
         "XF86AudioMicMute".action = spawn-sh "wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle";
 
+        "XF86MonBrightnessUp".action = spawn "${lib.getExe pkgs.light}" "-A" "1";
+        "XF86MonBrightnessDown".action = spawn "${lib.getExe pkgs.light}" "-U" "1";
       };
     };
   };

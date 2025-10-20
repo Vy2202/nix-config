@@ -51,6 +51,8 @@
   };
   programs.zsh.enable = true;
 
+  programs.light.enable = true;
+
   system.stateVersion = "24.11";
 
 }
