@@ -1,6 +1,6 @@
 { pkgs, ... }:
 {
   home.packages = [
-    pkgs.kicad-small
+    pkgs.kicad
   ];
 }
