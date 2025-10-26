@@ -51,11 +51,6 @@
 
   time.timeZone = "Asia/Shanghai";
 
-  nix.settings.experimental-features = [
-    "nix-command"
-    "flakes"
-  ];
-
   users = {
     mutableUsers = false;
     users.wei = {

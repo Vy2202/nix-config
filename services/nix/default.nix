@@ -1,6 +1,11 @@
 { ... }:
 {
   nix.settings = {
+    experimental-features = [
+      "nix-command"
+      "flakes"
+    ];
+
     substituters = [
       "https://cuda-maintainers.cachix.org"
       "https://mirrors.ustc.edu.cn/nix-channels/store"
