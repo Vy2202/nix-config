@@ -9,10 +9,7 @@
     ../../services/wayland
     ../../services/polkit
     ../../services/dconf
-    # ../../services/openWebui
-    # ../../services/n8n
     ../../services/miniflux
-    # ../../services/immich
     ../../services/nvidia
     ../../services/gvfs
     ../../services/fonts
@@ -27,6 +24,17 @@
     ../../programs/starship
     ../../programs/direnv
     ../../programs/inputMethod
+    ../../programs/keepassxc
+    ../../programs/kicad
+    ../../programs/ripgrep
+    ../../programs/swayimg
+    ../../programs/yazi
+    ../../programs/devenv
+    ../../programs/git
+    ../../programs/freecad
+    ../../programs/telegram
+    ../../programs/drawio
+    ../../programs/blender
   ];
 
   boot.loader.systemd-boot = {

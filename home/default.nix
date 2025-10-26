@@ -9,21 +9,21 @@
     ../programs/fuzzel
     ../programs/ghostty
     ../programs/niri
-    ../programs/keepassxc
+    # ../programs/keepassxc
     ../programs/obsidian
     ../programs/geminiCli
-    ../programs/kicad
-    ../programs/ripgrep
+    # ../programs/kicad
+    # ../programs/ripgrep
     ../programs/waybar
-    ../programs/swayimg
-    ../programs/yazi
-    ../programs/devenv
-    ../programs/git
+    # ../programs/swayimg
+    # ../programs/yazi
+    # ../programs/devenv
+    # ../programs/git
     ../programs/anki
-    ../programs/freecad
-    ../programs/telegram
-    ../programs/drawio
-    ../programs/blender
+    # ../programs/freecad
+    # ../programs/telegram
+    # ../programs/drawio
+    # ../programs/blender
 
     ../services/mako
     ../services/portal

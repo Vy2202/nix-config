@@ -1,4 +1,6 @@
 { pkgs, ... }:
 {
-  home.packages = [ pkgs.keepassxc ];
+  environment.systemPackages = [
+    pkgs.keepassxc
+  ];
 }

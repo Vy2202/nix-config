@@ -1,6 +1,6 @@
-{ ... }:
+{ pkgs, ... }:
 {
-  programs.ripgrep = {
-    enable = true;
-  };
+  environment.systemPackages = [
+    pkgs.ripgrep
+  ];
 }

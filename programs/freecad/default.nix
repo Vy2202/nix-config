@@ -1,4 +1,6 @@
 { pkgs, ... }:
 {
-  home.packages = [ pkgs.freecad ];
+  environment.systemPackages = [
+    pkgs.freecad
+  ];
 }

@@ -1,4 +1,6 @@
-{ ... }:
+{ pkgs, ... }:
 {
-  programs.swayimg.enable = true;
+  environment.systemPackages = [
+    pkgs.swayimg
+  ];
 }

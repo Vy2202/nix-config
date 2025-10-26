@@ -1,4 +1,6 @@
 { pkgs, ... }:
 {
-  home.packages = [ pkgs.devenv ];
+  environment.systemPackages = [
+    pkgs.devenv
+  ];
 }

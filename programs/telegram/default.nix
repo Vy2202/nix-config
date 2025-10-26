@@ -1,4 +1,6 @@
 { pkgs, ... }:
 {
-  home.packages = [ pkgs.telegram-desktop ];
+  environment.systemPackages = [
+    pkgs.telegram-desktop
+  ];
 }
