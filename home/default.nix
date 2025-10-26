@@ -6,8 +6,6 @@
   imports = [
     niri-flake.homeModules.niri
 
-    ../programs/fuzzel
-    # ../programs/ghostty
     ../programs/niri
     ../programs/waybar
 

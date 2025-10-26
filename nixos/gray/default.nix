@@ -36,6 +36,7 @@
     ../../programs/drawio
     ../../programs/blender
     ../../programs/ghostty
+    ../../programs/fuzzel
   ];
 
   boot.loader.systemd-boot = {
