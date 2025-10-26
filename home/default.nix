@@ -14,16 +14,16 @@
     ../programs/fuzzel
     # ../programs/firefox
     ../programs/ghostty
-    ../programs/starship
-    ../programs/atuin
-    ../programs/zsh
+    # ../programs/starship
+    # ../programs/atuin
+    # ../programs/zsh
     ../programs/inputMethod
     ../programs/niri
     ../programs/keepassxc
     ../programs/obsidian
     # ../programs/krita
     ../programs/qt
-    ../programs/direnv
+    # ../programs/direnv
     ../programs/geminiCli
     ../programs/kicad
     ../programs/ripgrep

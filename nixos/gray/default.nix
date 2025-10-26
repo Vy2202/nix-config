@@ -21,6 +21,9 @@
     ../../programs/thunar
     ../../programs/neovim
     ../../programs/firefox
+    ../../programs/zsh
+    ../../programs/starship
+    ../../programs/direnv
   ];
 
   boot.loader.systemd-boot = {
@@ -53,7 +56,6 @@
       shell = pkgs.zsh;
     };
   };
-  programs.zsh.enable = true;
 
   programs.light.enable = true;
 
