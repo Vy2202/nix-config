@@ -20,6 +20,7 @@
     ../../programs/steam
     ../../programs/thunar
     ../../programs/neovim
+    ../../programs/firefox
   ];
 
   boot.loader.systemd-boot = {

@@ -12,7 +12,7 @@
 
     # ../programs/neovim
     ../programs/fuzzel
-    ../programs/firefox
+    # ../programs/firefox
     ../programs/ghostty
     ../programs/starship
     ../programs/atuin
