@@ -7,15 +7,12 @@
     niri-flake.homeModules.niri
 
     ../programs/fuzzel
-    ../programs/ghostty
+    # ../programs/ghostty
     ../programs/niri
-    ../programs/geminiCli
     ../programs/waybar
-    ../programs/anki
 
     ../services/mako
     ../services/portal
-    ../services/syncthing
   ];
 
   manual.html.enable = true;

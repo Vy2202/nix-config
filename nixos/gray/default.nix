@@ -35,6 +35,7 @@
     ../../programs/telegram
     ../../programs/drawio
     ../../programs/blender
+    ../../programs/ghostty
   ];
 
   boot.loader.systemd-boot = {
