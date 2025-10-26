@@ -1,8 +1,6 @@
 { pkgs, ... }:
 {
-  home.packages = [
-    pkgs.neovim
-
+  environment.systemPackages = [
     # LSP
     pkgs.nil
     pkgs.markdown-oxide
@@ -15,4 +13,9 @@
     pkgs.mermaid-cli # snacks.image
     pkgs.fd # telescope
   ];
+
+  programs.neovim = {
+    enable = true;
+    defaultEditor = true;
+  };
 }

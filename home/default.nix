@@ -9,11 +9,11 @@
   home.username = "wei";
 
   imports = [
-    nixvim.homeModules.nixvim
+    # nixvim.homeModules.nixvim
     niri-flake.homeModules.niri
     stylix.homeModules.stylix
 
-    ../programs/neovim
+    # ../programs/neovim
     ../programs/fuzzel
     ../programs/firefox
     ../programs/ghostty

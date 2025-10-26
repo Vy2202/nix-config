@@ -19,6 +19,7 @@
     ../../programs/gnupg
     ../../programs/steam
     ../../programs/thunar
+    ../../programs/neovim
   ];
 
   boot.loader.systemd-boot = {
