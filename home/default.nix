@@ -1,29 +1,16 @@
-{
-  niri-flake,
-  stylix,
-  ...
-}:
+{ niri-flake, ... }:
+
 {
   home.username = "wei";
 
   imports = [
     niri-flake.homeModules.niri
-    # stylix.homeModules.stylix
 
-    # ../programs/neovim
     ../programs/fuzzel
-    # ../programs/firefox
     ../programs/ghostty
-    # ../programs/starship
-    # ../programs/atuin
-    # ../programs/zsh
-    # ../programs/inputMethod
     ../programs/niri
     ../programs/keepassxc
     ../programs/obsidian
-    # ../programs/krita
-    # ../programs/qt
-    # ../programs/direnv
     ../programs/geminiCli
     ../programs/kicad
     ../programs/ripgrep
@@ -38,9 +25,6 @@
     ../programs/drawio
     ../programs/blender
 
-    # ../services/fonts
-    # ../services/cursorTheme
-    # ../services/stylix
     ../services/mako
     ../services/portal
     ../services/syncthing
