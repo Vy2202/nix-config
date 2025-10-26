@@ -8,7 +8,7 @@
 
   imports = [
     niri-flake.homeModules.niri
-    stylix.homeModules.stylix
+    # stylix.homeModules.stylix
 
     # ../programs/neovim
     ../programs/fuzzel
@@ -40,7 +40,7 @@
 
     # ../services/fonts
     # ../services/cursorTheme
-    ../services/stylix
+    # ../services/stylix
     ../services/mako
     ../services/portal
     ../services/syncthing

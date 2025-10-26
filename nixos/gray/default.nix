@@ -16,6 +16,7 @@
     ../../services/nvidia
     ../../services/gvfs
     ../../services/fonts
+    ../../services/stylix
 
     ../../programs/gnupg
     ../../programs/steam
