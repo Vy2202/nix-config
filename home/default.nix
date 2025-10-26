@@ -38,7 +38,7 @@
     ../programs/drawio
     ../programs/blender
 
-    ../services/fonts
+    # ../services/fonts
     # ../services/cursorTheme
     ../services/stylix
     ../services/mako

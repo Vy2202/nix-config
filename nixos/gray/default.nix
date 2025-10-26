@@ -15,6 +15,7 @@
     # ../../services/immich
     ../../services/nvidia
     ../../services/gvfs
+    ../../services/fonts
 
     ../../programs/gnupg
     ../../programs/steam
