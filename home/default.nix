@@ -1,7 +1,5 @@
 {
-  pkgs,
   niri-flake,
-  nixvim,
   stylix,
   ...
 }:
@@ -9,7 +7,6 @@
   home.username = "wei";
 
   imports = [
-    # nixvim.homeModules.nixvim
     niri-flake.homeModules.niri
     stylix.homeModules.stylix
 
@@ -22,7 +19,6 @@
     ../programs/zsh
     ../programs/inputMethod
     ../programs/niri
-    # ../programs/nixvim
     ../programs/keepassxc
     ../programs/obsidian
     # ../programs/krita
