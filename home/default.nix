@@ -9,7 +9,6 @@
     ../programs/fuzzel
     ../programs/ghostty
     ../programs/niri
-    ../programs/obsidian
     ../programs/geminiCli
     ../programs/waybar
     ../programs/anki
