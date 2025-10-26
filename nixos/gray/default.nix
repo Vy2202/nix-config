@@ -14,9 +14,11 @@
     ../../services/miniflux
     # ../../services/immich
     ../../services/nvidia
+    ../../services/gvfs
 
     ../../programs/gnupg
     ../../programs/steam
+    ../../programs/thunar
   ];
 
   boot.loader.systemd-boot = {
@@ -57,6 +59,8 @@
     defaultLocale = "zh_CN.UTF-8";
     extraLocales = [ "en_US.UTF-8/UTF-8" ];
   };
+
+  hardware.opentabletdriver.enable = true;
 
   system.stateVersion = "24.11";
 
