@@ -26,6 +26,7 @@
     ../../programs/zsh
     ../../programs/starship
     ../../programs/direnv
+    ../../programs/inputMethod
   ];
 
   boot.loader.systemd-boot = {

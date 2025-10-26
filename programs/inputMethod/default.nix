@@ -9,7 +9,7 @@
       ];
       waylandFrontend = true;
       settings = {
-        inputMethod = {
+        globalOptions = {
           "GroupOrder"."0" = "Default";
           "Groups/0" = {
             "Name" = "Default";

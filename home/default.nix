@@ -17,12 +17,12 @@
     # ../programs/starship
     # ../programs/atuin
     # ../programs/zsh
-    ../programs/inputMethod
+    # ../programs/inputMethod
     ../programs/niri
     ../programs/keepassxc
     ../programs/obsidian
     # ../programs/krita
-    ../programs/qt
+    # ../programs/qt
     # ../programs/direnv
     ../programs/geminiCli
     ../programs/kicad
