@@ -32,13 +32,13 @@
         modules = [
           stylix.nixosModules.stylix
 
-          home-manager.nixosModules.home-manager
-          {
-            home-manager.useGlobalPkgs = true;
-            home-manager.useUserPackages = true;
-            home-manager.extraSpecialArgs = inputs;
-            home-manager.users.wei = import ./home;
-          }
+          # home-manager.nixosModules.home-manager
+          # {
+            # home-manager.useGlobalPkgs = true;
+            # home-manager.useUserPackages = true;
+            # home-manager.extraSpecialArgs = inputs;
+            # home-manager.users.wei = import ./home;
+          # }
 
           ./nixos/gray
         ];

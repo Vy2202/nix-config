@@ -16,6 +16,7 @@
     ../../services/stylix
     ../../services/portal
 
+    ../../programs/waybar
     ../../programs/gnupg
     ../../programs/steam
     ../../programs/thunar

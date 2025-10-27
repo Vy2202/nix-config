@@ -4,7 +4,7 @@
   home.username = "wei";
 
   imports = [
-    ../programs/waybar
+    # ../programs/waybar
 
     # ../services/mako
   ];
