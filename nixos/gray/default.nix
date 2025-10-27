@@ -16,6 +16,7 @@
     ../../services/stylix
     ../../services/portal
 
+    ../../programs/stown
     ../../programs/waybar
     ../../programs/gnupg
     ../../programs/steam
