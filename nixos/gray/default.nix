@@ -48,7 +48,7 @@
     ../../programs/light
   ];
 
-  time.timeZone = "Asia/Shanghai";
+  networking.hostName = "gray";
 
   system.stateVersion = "24.11";
 
