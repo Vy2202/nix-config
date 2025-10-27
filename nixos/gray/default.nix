@@ -20,6 +20,7 @@
     ../../services/bootloader
     ../../services/networking
     ../../services/mako
+    ../../services/users
 
     ../../programs/stown
     ../../programs/waybar
