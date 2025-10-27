@@ -15,6 +15,7 @@
     ../../services/fonts
     ../../services/stylix
     ../../services/portal
+    ../../services/openTabletDriver
 
     ../../programs/stown
     ../../programs/waybar
@@ -74,8 +75,6 @@
     defaultLocale = "zh_CN.UTF-8";
     extraLocales = [ "en_US.UTF-8/UTF-8" ];
   };
-
-  hardware.opentabletdriver.enable = true;
 
   system.stateVersion = "24.11";
 
