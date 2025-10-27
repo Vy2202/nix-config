@@ -19,6 +19,7 @@
     ../../services/locale
     ../../services/bootloader
     ../../services/networking
+    ../../services/mako
 
     ../../programs/stown
     ../../programs/waybar
