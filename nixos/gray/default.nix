@@ -41,6 +41,7 @@
     ../../programs/ghostty
     ../../programs/fuzzel
     ../../programs/niri
+    ../../programs/light
   ];
 
   boot.loader.systemd-boot = {
@@ -68,8 +69,6 @@
       shell = pkgs.zsh;
     };
   };
-
-  programs.light.enable = true;
 
   i18n = {
     defaultLocale = "zh_CN.UTF-8";
