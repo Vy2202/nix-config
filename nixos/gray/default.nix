@@ -16,6 +16,7 @@
     ../../services/stylix
     ../../services/portal
     ../../services/openTabletDriver
+    ../../services/i18n
 
     ../../programs/stown
     ../../programs/waybar
@@ -69,11 +70,6 @@
       hashedPassword = "$y$j9T$4QWBSIWxflEq9pReZOy2y.$RkOOXATQnfk2ypWt0PNh9/Q0uHaY3wleFvd.A/9h2eC";
       shell = pkgs.zsh;
     };
-  };
-
-  i18n = {
-    defaultLocale = "zh_CN.UTF-8";
-    extraLocales = [ "en_US.UTF-8/UTF-8" ];
   };
 
   system.stateVersion = "24.11";
