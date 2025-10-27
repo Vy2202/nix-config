@@ -21,6 +21,8 @@
     ../../services/mako
     ../../services/users
     ../../services/paperless
+    ../../services/postgresql
+    ../../services/adGuardHome
 
     ../../programs/androidStudio
     ../../programs/stown
