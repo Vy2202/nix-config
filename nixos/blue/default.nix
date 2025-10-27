@@ -9,6 +9,7 @@
     ../../services/users
     ../../programs/zsh
 
+    ../../services/openssh
     ../../services/postgresql
     ../../services/paperless
     ../../services/adGuardHome
@@ -16,8 +17,6 @@
     ../../services/miniflux
     ../../services/immich
   ];
-
-  services.openssh.enable = true;
 
   system.stateVersion = "24.11"; # Did you read the comment?
 
