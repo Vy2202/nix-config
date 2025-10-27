@@ -18,6 +18,7 @@
     ../../services/openTabletDriver
     ../../services/i18n
     ../../services/bootloader
+    ../../services/networking
 
     ../../programs/stown
     ../../programs/waybar
@@ -48,7 +49,6 @@
   ];
 
   networking.hostName = "gray";
-  networking.networkmanager.enable = true;
 
   time.timeZone = "Asia/Shanghai";
 
