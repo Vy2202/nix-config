@@ -8,6 +8,7 @@
     ../../services/bootloader
     ../../services/users
     ../../programs/zsh
+    ../../programs/starship
 
     ../../services/openssh
     ../../services/postgresql
