@@ -9,7 +9,6 @@
     ../../services/wayland
     ../../services/polkit
     ../../services/dconf
-    ../../services/miniflux
     ../../services/nvidia
     ../../services/gvfs
     ../../services/fonts
@@ -22,6 +21,7 @@
     ../../services/mako
     ../../services/users
 
+    ../../programs/androidStudio
     ../../programs/stown
     ../../programs/waybar
     ../../programs/gnupg
