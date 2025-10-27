@@ -14,6 +14,7 @@
     ../../services/gvfs
     ../../services/fonts
     ../../services/stylix
+    ../../services/portal
 
     ../../programs/gnupg
     ../../programs/steam
@@ -37,6 +38,7 @@
     ../../programs/blender
     ../../programs/ghostty
     ../../programs/fuzzel
+    ../../programs/niri
   ];
 
   boot.loader.systemd-boot = {

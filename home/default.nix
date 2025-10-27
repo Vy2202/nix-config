@@ -1,16 +1,12 @@
-{ niri-flake, ... }:
+{ ... }:
 
 {
   home.username = "wei";
 
   imports = [
-    niri-flake.homeModules.niri
-
-    ../programs/niri
     ../programs/waybar
 
-    ../services/mako
-    ../services/portal
+    # ../services/mako
   ];
 
   manual.html.enable = true;

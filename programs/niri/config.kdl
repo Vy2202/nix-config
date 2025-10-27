@@ -1,0 +1,79 @@
+input {
+    keyboard {
+        xkb {
+            layout ""
+            model ""
+            rules ""
+            variant ""
+        }
+        repeat-delay 600
+        repeat-rate 25
+        track-layout "global"
+    }
+    touchpad {
+        tap
+        natural-scroll
+    }
+}
+output "eDP-1" {
+    scale 1.500000
+    transform "normal"
+}
+screenshot-path "~/Pictures/Screenshots/Screenshot from %Y-%m-%d %H-%M-%S.png"
+prefer-no-csd
+layout {
+    gaps 2
+    struts {
+        left 0
+        right 0
+        top 0
+        bottom 0
+    }
+    focus-ring { width 2; }
+    border { off; }
+    default-column-width { proportion 0.500000; }
+    preset-column-widths {
+        proportion 0.500000
+        proportion 1.000000
+    }
+    center-focused-column "never"
+}
+cursor {
+    xcursor-theme "OpenZone_Ice"
+    xcursor-size 24
+}
+environment {
+    "QT_QPA_PLATFORM" "wayland"
+    "XDG_SESSION_TYPE" "wayland"
+}
+binds {
+    Ctrl+Shift+P { power-off-monitors; }
+    Mod+B { spawn "pkill" "--signal=USR1" ".waybar-wrapped"; }
+    Mod+D { spawn "fuzzel"; }
+    Mod+F { maximize-column; }
+    Mod+H { focus-column-left; }
+    Mod+I { focus-workspace-up; }
+    Mod+L { focus-column-right; }
+    Mod+O { toggle-overview; }
+    Mod+Q { close-window; }
+    Mod+R { switch-preset-column-width; }
+    Mod+Shift+E { quit; }
+    Mod+Shift+F { fullscreen-window; }
+    Mod+Shift+H { move-column-left; }
+    Mod+Shift+L { move-column-right; }
+    Mod+Shift+Slash { show-hotkey-overlay; }
+    Mod+T { spawn "ghostty"; }
+    Mod+U { focus-workspace-down; }
+    Mod+W { toggle-column-tabbed-display; }
+    Mod+v { toggle-window-floating; }
+    XF86AudioLowerVolume { spawn-sh "wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.1-"; }
+    XF86AudioMicMute { spawn-sh "wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle"; }
+    XF86AudioMute { spawn-sh "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"; }
+    XF86AudioRaiseVolume { spawn-sh "wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.1+"; }
+    XF86MonBrightnessDown { spawn "/nix/store/3n4y7w9j3zsfl6j3k4gl6qyz0vpib4n7-light-1.2.2/bin/light" "-U" "1"; }
+    XF86MonBrightnessUp { spawn "/nix/store/3n4y7w9j3zsfl6j3k4gl6qyz0vpib4n7-light-1.2.2/bin/light" "-A" "1"; }
+}
+spawn-at-startup "fcitx5"
+spawn-at-startup "mako"
+spawn-at-startup "waybar"
+xwayland-satellite { path "/nix/store/0ikaq60scqi5804w2ydlr8rd4z8g1k0v-xwayland-satellite-0.7/bin/xwayland-satellite"; }
