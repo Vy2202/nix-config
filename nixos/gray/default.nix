@@ -16,7 +16,7 @@
     ../../services/stylix
     ../../services/portal
     ../../services/openTabletDriver
-    ../../services/i18n
+    ../../services/locale
     ../../services/bootloader
     ../../services/networking
 
@@ -47,8 +47,6 @@
     ../../programs/niri
     ../../programs/light
   ];
-
-  networking.hostName = "gray";
 
   time.timeZone = "Asia/Shanghai";
 
