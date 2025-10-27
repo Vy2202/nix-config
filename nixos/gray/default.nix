@@ -17,6 +17,7 @@
     ../../services/portal
     ../../services/openTabletDriver
     ../../services/i18n
+    ../../services/bootloader
 
     ../../programs/stown
     ../../programs/waybar
@@ -45,13 +46,6 @@
     ../../programs/niri
     ../../programs/light
   ];
-
-  boot.loader.systemd-boot = {
-    enable = true;
-    configurationLimit = 7;
-  };
-
-  boot.loader.efi.canTouchEfiVariables = true;
 
   networking.hostName = "gray";
   networking.networkmanager.enable = true;
