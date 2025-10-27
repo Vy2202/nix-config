@@ -51,5 +51,4 @@
   networking.hostName = "gray";
 
   system.stateVersion = "24.11";
-
 }
