@@ -20,6 +20,7 @@
     ../../services/networking
     ../../services/mako
     ../../services/users
+    ../../services/paperless
 
     ../../programs/androidStudio
     ../../programs/stown
