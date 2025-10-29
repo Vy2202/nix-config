@@ -15,7 +15,7 @@
     ../../services/postgresql
     ../../services/paperless
     # ../../services/adGuardHome
-    ../../services/dnsctypt
+    # ../../services/dnsctypt
     ../../services/openWebui
     ../../services/miniflux
     ../../services/immich
