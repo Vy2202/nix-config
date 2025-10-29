@@ -5,5 +5,5 @@
     extraLocales = [ "en_US.UTF-8/UTF-8" ];
   };
 
-  networking.hostName = "gray";
+  time.timeZone = "Asia/Shanghai";
 }
