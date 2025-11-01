@@ -12,7 +12,6 @@
     ../../services/nvidia
     ../../services/gvfs
     ../../services/fonts
-    # ../../services/stylix
     ../../services/portal
     ../../services/openTabletDriver
     ../../services/locale
@@ -22,7 +21,7 @@
     ../../services/users
 
     ../../programs/androidStudio
-    ../../programs/stown
+    ../../programs/tuckr
     ../../programs/waybar
     ../../programs/gnupg
     ../../programs/steam
