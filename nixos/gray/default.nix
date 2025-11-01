@@ -1,4 +1,4 @@
-{ ... }:
+{ pkgs, ... }:
 {
   imports = [
     ./hardware.nix
@@ -12,7 +12,7 @@
     ../../services/nvidia
     ../../services/gvfs
     ../../services/fonts
-    ../../services/stylix
+    # ../../services/stylix
     ../../services/portal
     ../../services/openTabletDriver
     ../../services/locale
@@ -48,6 +48,10 @@
     ../../programs/fuzzel
     ../../programs/niri
     ../../programs/light
+  ];
+
+  environment.systemPackages = [
+    pkgs.phinger-cursors
   ];
 
   networking.hostName = "gray";
