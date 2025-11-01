@@ -47,6 +47,7 @@
     ../../programs/fuzzel
     ../../programs/niri
     ../../programs/light
+    ../../programs/krita
   ];
 
   environment.systemPackages = [

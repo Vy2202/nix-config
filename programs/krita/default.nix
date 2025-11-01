@@ -1,4 +1,6 @@
 { pkgs, ... }:
 {
-  home.packages = [ pkgs.krita ];
+  environment.systemPackages = [
+    pkgs.krita
+  ];
 }
