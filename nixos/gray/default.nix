@@ -19,6 +19,7 @@
     ../../services/networking
     ../../services/mako
     ../../services/users
+    ../../services/icons
 
     ../../programs/androidStudio
     ../../programs/tuckr
