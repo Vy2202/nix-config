@@ -27,10 +27,10 @@
         ];
 
         monospace = [
-          "Symbols Nerd Font Mono"
-          "Sarasa Mono SC"
+          "Sarasa Mono Slab SC"
           "Ubuntu Sans Mono"
           "Noto Sans CJK SC"
+          "Symbols Nerd Font Mono"
         ];
       };
     };
