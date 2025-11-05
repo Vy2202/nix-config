@@ -14,6 +14,7 @@
       enable = true;
       defaultFonts = {
         sansSerif = [
+          "Sarasa Term Slab SC"
           "Sarasa Gothic SC"
           "Noto Sans CJK SC"
           "Noto Sans"
