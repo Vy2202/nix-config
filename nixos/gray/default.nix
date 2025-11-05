@@ -22,6 +22,7 @@
     ../../services/icons
 
     ../../programs/androidStudio
+    ../../programs/godot
     ../../programs/tuckr
     ../../programs/waybar
     ../../programs/gnupg
