@@ -4,22 +4,14 @@
   };
 
   outputs =
-    {
-      self,
-      nixpkgs,
-      ...
-    }@inputs:
+    { nixpkgs, ... }:
     {
       nixosConfigurations."gray" = nixpkgs.lib.nixosSystem {
-        modules = [
-          ./nixos/gray
-        ];
+        modules = [ ./nixos/gray ];
       };
 
       nixosConfigurations."blue" = nixpkgs.lib.nixosSystem {
-        modules = [
-          ./nixos/blue
-        ];
+        modules = [ ./nixos/blue ];
       };
     };
 }

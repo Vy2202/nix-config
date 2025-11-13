@@ -21,6 +21,7 @@
     ../../services/users
     ../../services/icons
 
+    ../../programs/minecraft
     ../../programs/androidStudio
     ../../programs/godot
     ../../programs/tuckr
