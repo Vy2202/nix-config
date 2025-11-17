@@ -20,6 +20,7 @@
     ../../services/mako
     ../../services/users
     ../../services/icons
+    ../../services/powerManagement
 
     ../../programs/obs
     ../../programs/minecraft

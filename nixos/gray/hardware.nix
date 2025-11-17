@@ -22,7 +22,11 @@
   boot.initrd.kernelModules = [ ];
   boot.kernelModules = [ "kvm-amd" ];
   boot.extraModulePackages = [ ];
-  boot.kernelParams = [ "quiet" ];
+  boot.kernelParams = [
+    "quiet"
+    "resume_offset=9501298"
+  ];
+  boot.resumeDevice = "/dev/disk/by-uuid/0f043c7a-7f92-4853-b08b-3ec5b9cca3e0";
 
   boot.tmp.cleanOnBoot = true;
 
@@ -61,6 +65,7 @@
     fsType = "btrfs";
     options = [
       "subvol=swap"
+      "noatime"
     ];
   };
 
@@ -74,7 +79,10 @@
   };
 
   swapDevices = [
-    { device = "/swap/swapfile"; }
+    {
+      device = "/swap/swapfile";
+      size = 16 * 1024;
+    }
   ];
 
   zramSwap = {
