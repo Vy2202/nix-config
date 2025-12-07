@@ -22,6 +22,7 @@
     ../../services/icons
     ../../services/powerManagement
 
+    ../../programs/xarchiver
     ../../programs/obs
     ../../programs/minecraft
     ../../programs/androidStudio
