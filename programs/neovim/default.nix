@@ -1,3 +1,8 @@
+# Neovim
+# 主页：neovim.io
+# 标签：editor, cli, IDE
+# 说明：文本编辑器
+
 { pkgs, ... }:
 {
   environment.systemPackages = [

@@ -1,3 +1,8 @@
+# Fcitx5
+# 主页：github.com/fcitx/fcitx5
+# 标签：input_method, tool
+# 说明：输入法引擎
+
 { pkgs, ... }:
 {
   i18n.inputMethod = {
