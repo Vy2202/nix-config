@@ -6,22 +6,24 @@
 
   outputs =
     { nixpkgs, flake-utils, ... }:
-    flake-utils.lib.eachDefaultSystem (
+    {
+      nixosConfigurations = {
+        "gray" = nixpkgs.lib.nixosSystem {
+          modules = [ ./nixos/gray ];
+        };
+
+        "blue" = nixpkgs.lib.nixosSystem {
+          modules = [ ./nixos/blue ];
+        };
+      };
+
+    }
+    // flake-utils.lib.eachDefaultSystem (
       system:
       let
         pkgs = import nixpkgs { inherit system; };
       in
       {
-        nixosConfigurations = {
-          "gray" = nixpkgs.lib.nixosSystem {
-            modules = [ ./nixos/gray ];
-          };
-
-          "blue" = nixpkgs.lib.nixosSystem {
-            modules = [ ./nixos/blue ];
-          };
-        };
-
         devShells.default =
           with pkgs;
           mkShell {
