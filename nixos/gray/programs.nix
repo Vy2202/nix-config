@@ -3,29 +3,29 @@
   imports = [
     ../../programs/chromium
     ../../programs/xarchiver
-    ../../programs/obs
+    # ../../programs/obs
     ../../programs/minecraft
-    ../../programs/androidStudio
-    ../../programs/godot
+    # ../../programs/androidStudio
+    # ../../programs/godot
     ../../programs/tuckr
     ../../programs/waybar
     ../../programs/gnupg
     ../../programs/steam
     ../../programs/thunar
     ../../programs/neovim
-    ../../programs/firefox
+    # ../../programs/firefox
     ../../programs/zsh
     ../../programs/starship
     ../../programs/direnv
     ../../programs/inputMethod
     ../../programs/keepassxc
-    ../../programs/kicad
+    # ../../programs/kicad
     ../../programs/ripgrep
     ../../programs/swayimg
     ../../programs/yazi
     ../../programs/devenv
     ../../programs/git
-    ../../programs/freecad
+    # ../../programs/freecad
     ../../programs/telegram
     ../../programs/drawio
     ../../programs/blender
@@ -33,6 +33,6 @@
     ../../programs/fuzzel
     ../../programs/niri
     ../../programs/light
-    ../../programs/krita
+    # ../../programs/krita
   ];
 }
