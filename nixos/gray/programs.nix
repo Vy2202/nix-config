@@ -1,6 +1,7 @@
 { ... }:
 {
   imports = [
+    ../../programs/clash
     ../../programs/chromium
     ../../programs/xarchiver
     # ../../programs/obs
