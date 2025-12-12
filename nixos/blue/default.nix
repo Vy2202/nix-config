@@ -3,24 +3,8 @@
 {
   imports = [
     ./hardware.nix
-    ../../services/dae
-    ../../services/nix
-    ../../services/bootloader
-    ../../services/users
-    ../../programs/zsh
-    ../../programs/starship
-
-    ../../services/nginx
-    ../../services/openssh
-    ../../services/postgresql
-    ../../services/paperless
-    # ../../services/adGuardHome
-    # ../../services/dnsctypt
-    ../../services/openWebui
-    ../../services/miniflux
-    ../../services/immich
-
-    ./nginxConfig.nix
+    ./services.nix
+    ./programs.nix
   ];
 
   networking.hostName = "blue";
