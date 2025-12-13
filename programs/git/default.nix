@@ -14,8 +14,4 @@
       };
     };
   };
-
-  environment.systemPackages = [
-    pkgs.git-crypt
-  ];
 }
