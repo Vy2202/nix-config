@@ -2,7 +2,7 @@
 {
   services.miniflux = {
     enable = true;
-    adminCredentialsFile = ./adminCredentialsFile;
+    adminCredentialsFile = "/etc/miniflux/cred";
     config = {
       LISTEN_ADDR = "0.0.0.0:11000";
     };
