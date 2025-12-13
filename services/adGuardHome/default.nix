@@ -6,4 +6,6 @@
     openFirewall = true;
     port = 22001;
   };
+
+  networking.firewall.allowedUDPPorts = [ 53 ];
 }
