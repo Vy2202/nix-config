@@ -1,6 +1,7 @@
 { ... }:
 {
   imports = [
+    ../../services/qbittorrent
     ../../services/nix
     ../../services/bootloader
     ../../services/users
