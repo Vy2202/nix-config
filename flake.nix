@@ -29,6 +29,7 @@
           mkShell {
             packages = [
               nil
+              git
             ];
           };
       }
