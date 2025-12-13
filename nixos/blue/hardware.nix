@@ -71,6 +71,10 @@
       }
     ];
   };
+  networking.nameservers = [
+    "8.8.8.8"
+    "223.5.5.5"
+  ];
 
   nixpkgs.hostPlatform = lib.mkDefault "x86_64-linux";
   hardware.cpu.intel.updateMicrocode = lib.mkDefault config.hardware.enableRedistributableFirmware;
