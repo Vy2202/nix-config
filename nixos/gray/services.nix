@@ -2,7 +2,7 @@
 {
   imports = [
     ../../services/bluetooth
-    # ../../services/dae
+    ../../services/ollama
     ../../services/nix
     ../../services/greetd
     ../../services/wayland
