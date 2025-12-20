@@ -66,7 +66,7 @@
   networking.interfaces.enp1s0 = {
     ipv4.addresses = [
       {
-        address = "192.168.0.100";
+        address = "192.168.0.200";
         prefixLength = 24;
       }
     ];
