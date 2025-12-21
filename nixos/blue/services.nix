@@ -14,6 +14,6 @@
     ../../services/openWebui
     ../../services/miniflux
     ../../services/immich
-
+    ../../services/podman
   ];
 }
