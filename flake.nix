@@ -28,6 +28,7 @@
           with pkgs;
           mkShell {
             packages = [
+	      nixfmt
               nil
               git
             ];
