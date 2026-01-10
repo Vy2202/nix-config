@@ -1,6 +1,7 @@
 { ... }:
 {
   imports = [
+    ../../services/cosmic
     ../../services/bluetooth
     ../../services/ollama
     ../../services/nix
