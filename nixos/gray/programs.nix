@@ -9,7 +9,7 @@
     # ../../programs/androidStudio
     # ../../programs/godot
     ../../programs/tuckr
-    ../../programs/waybar
+    # ../../programs/waybar
     ../../programs/gnupg
     ../../programs/steam
     ../../programs/thunar
